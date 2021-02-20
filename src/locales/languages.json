@@ -1,0 +1,23 @@
+{
+  "en": {
+    "NavigationBar.Home": "Home",
+    "NavigationBar.Projects": "Projects",
+    "NavigationBar.Contact": "Contact",
+    "NavigationBar.Title": "Hello",
+    "Contact.Where": "Where to find me?",
+    "Contact.Here": "There are several places you can find me, just choose one from the list below:",
+    "Home.Introduction": "Hello! My name is Juan Patricio (commonly known as juanmuscaria), I'm a 18 years old from Brazil with a passion about computers and programming.",
+    "Home.WhatICanDo": "I program mostly in java but I do have knowledge about other languages like C#, Typescript & Javascript (NodeJS), Python and I can easily adapt to use any language with a C like syntax."
+
+  },
+  "pt": {
+    "NavigationBar.Home": "Inicio",
+    "NavigationBar.Projects": "Projetos",
+    "NavigationBar.Contact": "Contato",
+    "NavigationBar.Title": "Olá",
+    "Contact.Where": "Onde me encontrar?",
+    "Contact.Here": "Tem vários lugares que você pode me encontrar, só escolher um da lista abaixo:",
+    "Home.Introduction": "Olá! Meu nome é Juan Patricio (comumente conhecido como juanmuscaria), eu tenho 18 anos e tenho uma paixão por computadores e programação.",
+    "Home.WhatICanDo": "Eu programo principalmente em java, porém tenho conhecimento em outras linguagens como C#, Typescript & Javascript (NodeJS), Python e consigo me adaptar facilmente para usar qualquer linguagem com uma sintaxe parecida com C."
+  }
+}

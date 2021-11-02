@@ -1,77 +1,40 @@
+$dark: #0a0603;
+$secondary: #140c06;
+$primary: #ffc80c;
+$light: $primary;
+$navbar-dark-color: $primary;
+$navbar-dark-brand-color: $primary;
+$navbar-dark-brand-hover-color: $primary;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-active-color: #f8842a;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "crt";
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url("./fonts/JetBrainsMono-ExtraBold.woff2") format("woff2");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "JetBrains Mono", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $dark;
+}
+html {
+  background-color: $dark
+}
+
+.page {
+  height: 50vh
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-@keyframes flicker {
-  $frame-count: 40;
-  @for $i from 0 to $frame-count {
-    $current-frame: 0;
-    @if $i != 0 {
-      $current-frame: (($i*100)/$frame-count);
-    }
-    #{$current-frame}% {
-      opacity: #{random()}
-    }
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-@keyframes textShadow {
-  $frame-count: 20;
-  @for $i from 0 to $frame-count {
-    $current-frame: 0;
-    @if $i != 0 {
-      $current-frame: (($i*100)/$frame-count);
-    }
-    #{$current-frame}% {
-      text-shadow: #{random(3)*random()}px 0 8px rgba(0, 0, 0, 0.5), #{(random(3)*random())*-1}px 0 8px rgba(255,255,255,0.5), 0 0 3px;
-      box-shadow: #{random(3)*random()}px 0 8px rgba(0, 0, 0, 0.5), #{(random(3)*random())*-1}px 0 8px rgba(255,255,255,0.5), 0 0 3px;
-    }
-  }
-  100% {
-    text-shadow: 5px 0 1px rgba(0,0,0,0.5), -5px 0 1px rgba(255,255,255,0.5), 0 0 3px;
-    box-shadow: 5px 0 1px rgba(0,0,0,0.5), -5px 0 1px rgba(255,255,255,0.5), 0 0 3px;
-  }
-}
-
-.crt::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(18, 16, 16, 0.1);
-  opacity: 0;
-  z-index: 2;
-  pointer-events: none;
-  animation: flicker 0.15s infinite;
-}
-.crt::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
-  z-index: 2;
-  background-size: 100% 2px, 3px 100%;
-  pointer-events: none;
-}
-.crtFlick {
-  animation: textShadow 1.5s infinite;
 }

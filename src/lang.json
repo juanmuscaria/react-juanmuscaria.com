@@ -1,0 +1,20 @@
+{
+  "en": {
+    "NavBar.Title": "[Nav]>",
+    "NavBar.Link.About": "About Me",
+    "NavBar.Link.Projects": "My Projects",
+    "NavBar.Link.Contact": "Contact Me",
+    "About.Line1": "Hi there, my name is Juan Patricio, I'm a self-taught software developer from Brazil",
+    "About.Line2": "I program mostly in java, but I do have knowledge about other languages like C#, Typescript & Javascript (NodeJS), Python and I can easily adapt to use any language with a C like syntax.",
+    "Contact": "Do you want to contact me? Choose one of the means of communication below:"
+  },
+  "pt": {
+    "NavBar.Title": "[Nav]>",
+    "NavBar.Link.About": "Sobre Mim",
+    "NavBar.Link.Projects": "Meus Projetos",
+    "NavBar.Link.Contact": "Me Contate",
+    "About.Line1": "Olá, meu nome é Juan Patricio, eu sou um desenvolvedor de software autodidata do Brasil",
+    "About.Line2": "Eu programo principalmente em Java, mas tenho conhecimento sobre outras linguagens como C#, Typescript e Javascript (NodeJS), Python e posso me adaptar facilmente para usar qualquer linguagem com uma sintaxe semelhante a C.",
+    "Contact": "Deseja entrar em contato comigo? Escolha um dos meios de comunicação abaixo:"
+  }
+}

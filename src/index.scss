@@ -1,16 +1,3 @@
-$dark: #0a0603;
-$secondary: #140c06;
-$primary: #ffc80c;
-$light: $primary;
-$navbar-dark-color: $primary;
-$navbar-dark-brand-color: $primary;
-$navbar-dark-brand-hover-color: $primary;
-$navbar-dark-hover-color: $primary;
-$navbar-dark-active-color: #f8842a;
-
-@import "node_modules/bootstrap/scss/bootstrap";
-@import "crt";
-
 @font-face {
   font-family: 'JetBrains Mono';
   src: url("./fonts/JetBrainsMono-ExtraBold.woff2") format("woff2");
@@ -24,14 +11,6 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $dark;
-}
-html {
-  background-color: $dark
-}
-
-.page {
-  height: 50vh
 }
 
 code {

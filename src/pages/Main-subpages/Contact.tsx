@@ -1,6 +1,5 @@
 import {Card, Col, Container, Row} from "react-bootstrap";
 import {FormattedMessage} from "react-intl";
-import GithubCard from "../components/GithubCard";
 import React from "react";
 
 export default function Contact () {

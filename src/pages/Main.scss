@@ -1,0 +1,27 @@
+$dark: #0a0603;
+$secondary: #140c06;
+$primary: #ffc80c;
+$light: $primary;
+$navbar-dark-color: $primary;
+$navbar-dark-brand-color: $primary;
+$navbar-dark-brand-hover-color: $primary;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-active-color: #f8842a;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "../styles/crt";
+
+body {
+  background-color: $dark;
+}
+html {
+  background-color: $dark
+}
+
+.page {
+  height: 50vh
+}
+
+.makeGlowText {
+  text-shadow: 0 0 10px rgba(255, 155, 9 ,1)
+}

@@ -1,6 +1,5 @@
-import {Card, Col, Container, Row} from "react-bootstrap";
-import {FormattedMessage} from "react-intl";
-import GithubCard from "../components/GithubCard";
+import {Col, Container, Row} from "react-bootstrap";
+import GithubCard from "../../components/GithubCard";
 
 export default function Projects () {
     return (

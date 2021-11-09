@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+
 const Main = React.lazy(() => import("./pages/Main"));
 const NotFound = React.lazy(() => import("./pages/NotFound"));
+const Blank = React.lazy(() => import("./pages/Blank"));
 ReactDOM.render(
   <React.StrictMode>
       <React.Suspense fallback={<div/>}>
@@ -12,6 +14,9 @@ ReactDOM.render(
               <Switch>
                   <Route exact path="/">
                       <Main/>
+                  </Route>
+                  <Route path="/blank">
+                      <Blank/>
                   </Route>
                   <Route path="/">
                       <NotFound/>
